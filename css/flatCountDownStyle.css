@@ -1,0 +1,38 @@
+@import url(http://nicholastodor.com/sf/usesf.css);
+* {
+    font-family: 'San Francisco Display', sans-serif;
+    letter-spacing: -1px;
+    line-height: 1.0625;
+}
+
+#countdown {
+    display: table;
+    width: 700px;
+    text-align: center;
+}
+
+.timer {
+	text-align: center;
+    font-size: 120px;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+#labels {
+	text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.Row {
+    display: table-row;    
+    text-align: center;
+}
+
+.Cell {
+
+    text-align: center;
+    display: table-cell;
+    padding-left: 7px;
+    padding-right: 7px;
+}
