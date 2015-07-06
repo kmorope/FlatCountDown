@@ -6,8 +6,7 @@
 }
 
 #countdown {
-    display: table;
-    width: 700px;
+    display: table; 
     text-align: center;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .Row {
-    display: table-row;    
+    display: table-row;
     text-align: center;
 }
 

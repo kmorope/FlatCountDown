@@ -5,18 +5,19 @@
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js" type="text/javascript"></script>
     <script src="flatCountDown.js" type="text/javascript"></script>
+    <script src="flatCountDownLib.js" type="text/javascript"></script>
     <script type="text/javascript">
-    flatCountdown('02/19/2016 10:13 AM', 'countdown');
+    flatCountdown('07/06/2015 04:48 PM', 'countdown');
     </script>
 </head>
 
 <body>
     <div id="countdown">
         <div id="labels" class="Row">
-            <div class="Cell">Dias</div>
-            <div class="Cell">Horas</div>
-            <div class="Cell">Minutos</div>
-            <div class="Cell">Segundos</div>
+            <div class="Cell" id="ddLabel">Dias</div>
+            <div class="Cell" id="hhLabel">Horas</div>
+            <div class="Cell" id="mmLabel">Minutos</div>
+            <div class="Cell" id="ssLabel">Segundos</div>
         </div>
         <div id="timers" class="Row">
             <div class="timer Cell" id="day"></div>
