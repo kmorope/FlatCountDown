@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="flatCountDown.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    flatCountdown('02/19/2016 10:13 AM', 'countdown');
+    </script>
+</head>
+
+<body>
+    <div id="countdown">
+        <div id="labels" class="Row">
+            <div class="Cell">Dias</div>
+            <div class="Cell">Horas</div>
+            <div class="Cell">Minutos</div>
+            <div class="Cell">Segundos</div>
+        </div>
+        <div id="timers" class="Row">
+            <div class="timer Cell" id="day"></div>
+            <div class="timer Cell" id="hour" style="width:170px;display:inline-table"></div>
+            <div class="timer Cell" id="minute" style="width:170px;"></div>
+            <div class="timer Cell" id="second" style="width:172px;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
